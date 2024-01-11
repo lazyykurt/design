@@ -9,7 +9,7 @@
 /* ------------------------ */
 
 body {
-  font-family: sans-serif;
+  font-family: 'Inter' sans-serif ;
 }
 
 .container {
@@ -122,3 +122,79 @@ h1 {
 footer {
   margin-bottom: 48px;
 }
+
+/* ------------------------ */
+/* Implementing Typography */
+/* ------------------------ */
+
+/* 1. change font-family */
+/* 
+body {
+  font-family: 'Inter' sans-serif;
+}
+*/
+
+/* 2. change font-size and line-height */
+/* 
+  10 / 12 / 14 small
+  16 / 18 / 20 normal
+  24 / 30 / 36 subheadings
+  44 / 52 / 62 headline
+  74 / 86 / 98 super big
+ */
+h1 {
+  font-size: 44px;
+  line-height: 1.1;
+  letter-spacing: -1.5px;
+}
+
+.header-text {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.features-main-title {
+  font-size: 36px;
+  letter-spacing: -0.5px;
+}
+
+.features-title {
+  font-size: 20px;
+}
+
+.features-text {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.testimonial-title {
+  font-size: 24px;
+}
+
+.testimonial-text {
+  font-style: italic;
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.testimonial-author {
+  font-size: 16px;
+}
+
+.chair-main-title {
+  font-size: 36px;
+}
+
+.chair-box h3 {
+  font-size: 24px;
+}
+
+.chair-details {
+  font-size: 16px;
+}
+
+.chair-price {
+  font-size: 20px;
+}
+

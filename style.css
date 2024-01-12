@@ -9,7 +9,7 @@
 /* ------------------------ */
 
 body {
-  font-family: 'Inter' sans-serif ;
+  font-family: "Inter" sans-serif;
 }
 
 .container {
@@ -82,7 +82,6 @@ h1 {
 .testimonial-title {
   margin-bottom: 24px;
 }
-
 
 /* chair section */
 .chair-main-title {
@@ -198,3 +197,50 @@ h1 {
   font-size: 20px;
 }
 
+/* ------------------------ */
+/* Implementing Color */
+/* ------------------------ */
+
+/* 
+  Main Color #087f5b
+  Gray Color #343a40
+*/
+body {
+  color: #343a40;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: #087f5b;
+  color: #fff !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #099268;
+  transition: 0.15s;
+}
+
+.btn:active {
+  background-color: #0ca678;
+}
+
+.btn--big {
+  padding: 16px 36px;
+}
+
+.btn--small {
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+.testimonial-section {
+  background-color: #087f5b;
+  color: #fff;
+
+  padding: 24px;
+}

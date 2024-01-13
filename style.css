@@ -244,3 +244,17 @@ body {
 
   padding: 24px;
 }
+
+/* add some icon */
+.features-icon {
+  stroke: #087f5b;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 16px;
+}
+
+.details-icon {
+  stroke: #087f5b;
+  width: 24px;
+  height: 24px;
+}

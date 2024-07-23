@@ -1,9 +1,3 @@
-[version 0.5](https://lazyykurt.github.io/chairweb/)
+[预览](https://lazyykurt.github.io/design)
 
-[now page](https://lazyykurt.github.io/design/)
-
-version 1 see commit ‘optimization tyopgraphy’
-
-24/1/12  add some color
-
-24/1/13 add some icon
+练习 css 的基础布局。
